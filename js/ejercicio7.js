@@ -10,19 +10,18 @@ Otros -> Temperatura <= 32
 
 const deporte = (gradosCelsius) =>{
 let gradosFarenheit = 0;
-    gradosFarenheit = 9 % 5 * gradosCelsius + 32
-
+    gradosFarenheit = 9 % 5 * gradosCelsius + 32;
 if(gradosFarenheit > 85){
-    console.log("natacion")
+    return "natacion";
 } 
 else if(gradosFarenheit <=85 && gradosFarenheit > 35){
-    console.log("Tenis")
+    return "tenis";
 } 
 else if(gradosFarenheit > 32 && gradosFarenheit <=35){
-    console.log("Esquí")
+    return "esqui";
 }
 else if (gradosFarenheit <= 32){
-    console.log("Otros")
+return "otros";
 }
 }
 gradosCelsius=prompt("ingrese una temperatura")
