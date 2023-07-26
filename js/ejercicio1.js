@@ -4,15 +4,4 @@
 
 
 
-let num = parseInt(prompt("Ingrese un numero"));
 
-const parImpar = (num) =>{
-    if(num % 2 === 0){
-        console.log("el numero es par")
-      }else{
-        console.log("el numero es impar")
-      }
-}
-
-const res = parImpar(num);
-console.log(res);

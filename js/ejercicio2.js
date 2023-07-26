@@ -3,17 +3,3 @@
 */
 
 
-let texto = prompt("Ingrese una texto");
-const cadenaDeTexto = (texto) =>{
-  if(texto === texto.toUpperCase()){
-    console.log("el texto contiene mayusculas")
-  }else if(texto === texto.toLowerCase ()){
-    console.log("el texto contiene minusculas")
-  }else{
-    console.log("el texto contiene minusculas y mayusculas")
-  }
-}
-
-const res = cadenaDeTexto(texto);
-
-console.log(res);
